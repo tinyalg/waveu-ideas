@@ -1,0 +1,8 @@
+version: "0.1.0"
+description: Lissajous Example
+
+dependencies:
+
+# The component name without namespace must match the name of the top level directory.
+  tinyalg/waveu:
+    git: https://github.com/tinyalg/waveu.git
