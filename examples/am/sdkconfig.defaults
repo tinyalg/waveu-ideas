@@ -1,0 +1,11 @@
+# Flash size
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Set CPU frequency at 240MHz.
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# Enable Support for C++ Exceptions in ESP-IDF
+CONFIG_COMPILER_CXX_EXCEPTIONS=y
+
+# Enable Support for RTTI in ESP-IDF.
+CONFIG_COMPILER_CXX_RTTI=y
