@@ -1,6 +1,8 @@
 # Sweep Example
 
-This example demonstrates the generation of sweep wave using Waveu.
+This example demonstrates sweep wave generation using Waveu.
+CH0 performs a linear sweep, and CH1 performs an exponential sweep over 20 seconds.
+Both start at 100Hz, reach 1kHz, and then repeat.
 
 ## How to Build
 Follow the steps in the [Root README](../../README.md).
