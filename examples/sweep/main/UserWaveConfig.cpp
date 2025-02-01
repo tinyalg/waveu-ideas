@@ -153,10 +153,10 @@ private:
     /// @brief Total sweep duration
     float _t_duration;
 
-    /// @brief Pointer to PhaseGenerator
+    /// @brief Pointer to PhaseGenerator for linear sweep
     PhaseGenerator* _phaseGeneratorL = nullptr;
 
-    /// @brief Pointer to PhaseGenerator
+    /// @brief Pointer to PhaseGenerator for exponential sweep
     PhaseGenerator* _phaseGeneratorE = nullptr;
 
     /// @brief Function pointer to calculate the LUT index 
