@@ -1,0 +1,7 @@
+.vscode
+build
+sdkconfig
+sdkconfig.old
+dependencies.lock
+.ipynb_checkpoints
+managed_components

@@ -1,0 +1,16 @@
+# Enables alternate channel mode: 
+# - CH0 (Channel 0) performs a linear frequency sweep
+# - CH1 (Channel 1) performs an exponential frequency sweep
+CONFIG_WAVEU_CHANNEL_MODE_ALTER=y
+
+# Flash size
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Set CPU frequency at 240MHz.
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# Enable Support for C++ Exceptions in ESP-IDF
+CONFIG_COMPILER_CXX_EXCEPTIONS=y
+
+# Enable Support for RTTI in ESP-IDF.
+CONFIG_COMPILER_CXX_RTTI=y
